@@ -1,3 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Circe Rounded';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/CirceRounded-Regular.woff2") format("woff2");
+  }
+}
+
+.root,
+#root,
+#docs-root {
+  --primary-color:#EEEEFF;
+  --primary-additional-color: #DECFFF;
+  --primary-accent-color: #8D7FC7;
+  --secondary-color:#D7F0D6;
+  --secondary-accent-color:#BBE7B9;
+  --third-color: #E12828;
+  --fourth-color:#434B74;
+  --fifth-color: #FFFFFF;
+  --sixth-color: #323854;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -7,13 +34,13 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*body {*/
+/*  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",*/
+/*  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",*/
+/*  sans-serif;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*}*/
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
