@@ -9,15 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary-color": "var(--primary-color)",
-        "primary-additional-color": "var(--primary-additional-color)",
-        "primary-accent-color": "var(--primary-accent-color)",
-        "secondary-color": "var(--secondary-color)",
-        "secondary-accent-color": "var(--secondary-accent-color)",
-        "third-color": "var(--third-color)",
-        "fourth-color": "var(--fourth-color)",
-        "fifth-color": "var(--fifth-color)",
-        "sixth-color": "var(--sixth-color)",
+        "primary": "var(--primary-color)",
+        "primary-additional": "var(--primary-additional-color)",
+        "primary-accent": "var(--primary-accent-color)",
+        "secondary": "var(--secondary-color)",
+        "secondary-accent": "var(--secondary-accent-color)",
+        "third": "var(--third-color)",
+        "fourth": "var(--fourth-color)",
+        "fifth": "var(--fifth-color)",
+        "sixth": "var(--sixth-color)",
+        "seventh": "var(--seventh-color)",
+        "eighth": "var(--eighth-color)",
+        "ninth": "var(--ninth-color)",
       },
       fontFamily:{
         //Шрифт по-умолчанию

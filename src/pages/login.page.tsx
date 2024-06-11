@@ -1,13 +1,11 @@
-import { FC } from "react";
-import { LoginForm } from "@components/LoginForm.tsx";
-import logo from "@assets/logo/Logomark_1_.svg"
+import { FC } from 'react';
+import { LoginForm } from '@components/LoginForm.tsx';
 
-export const LoginPage:FC = () => {
-  return (
-    <div className=" flex flex-col items-center justify-center h-[340px] w-[535px]">
-      <img src={logo} alt="logo"/>
-      <h1 className="font-sans">Вход в Sirius Future</h1>
-      <LoginForm />
-    </div>
-  )
-}
+
+export const LoginPage: FC = () => {
+	return (
+		<div className="min-w-full min-h-full flex items-center justify-center">
+			<LoginForm />
+		</div>
+	);
+};

@@ -1,0 +1,29 @@
+.link {
+    @apply text-eighth;
+    @apply cursor-pointer;
+    @apply text-base;
+}
+
+.middle {
+    @apply py-[10px];
+}
+
+.bottom {
+    @apply py-[10px];
+    @apply px-[40px];
+}
+
+.input {
+    @apply w-full;
+    @apply border-2;
+    @apply border-solid;
+    @apply border-ninth;
+    @apply rounded;
+    @apply text-pink-700;
+    padding: 10px 12px;
+}
+
+:placeholder {
+
+
+}
