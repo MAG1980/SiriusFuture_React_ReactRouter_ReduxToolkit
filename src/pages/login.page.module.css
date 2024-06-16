@@ -1,0 +1,9 @@
+.language {
+    @apply text-twelfth
+}
+
+.language-active {
+    font-size: 24px;
+    Line-height: 21px;
+    @apply text-eleventh;
+}

@@ -19,11 +19,11 @@
     @apply border-solid;
     @apply border-ninth;
     @apply rounded;
-    @apply text-pink-700;
+    @apply text-twelfth;
     padding: 10px 12px;
 }
 
-:placeholder {
-
-
+.input:focus-visible {
+    @apply outline-none;
+    @apply border-primary-accent;
 }

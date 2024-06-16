@@ -24,6 +24,9 @@
     --seventh-color: #D8ECFF;
     --eighth-color: #008AFF;
     --ninth-color:  #ECECEC;
+    --tenth-color: #FDFDFF;
+    --eleventh-color: #7362BC;
+    --twelfth-color:  #79747F;
 }
 
 html {
@@ -34,6 +37,10 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+body {
+    @apply bg-tenth;
 }
 
 /*body {*/

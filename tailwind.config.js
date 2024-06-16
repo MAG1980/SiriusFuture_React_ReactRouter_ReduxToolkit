@@ -21,6 +21,9 @@ export default {
         "seventh": "var(--seventh-color)",
         "eighth": "var(--eighth-color)",
         "ninth": "var(--ninth-color)",
+        "tenth": "var(--tenth-color)",
+        "eleventh": "var(--eleventh-color)",
+        "twelfth": "var(--twelfth-color)",
       },
       fontFamily:{
         //Шрифт по-умолчанию
